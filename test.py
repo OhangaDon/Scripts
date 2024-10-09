@@ -38,7 +38,7 @@ def process_file(input_file, output_file):
                 file.write(f"SSN: {info['SSN']}\n")
                 file.write(f"DOB: {info['DOB']}\n")
                 file.write(f"Address: {info['Address']}\n")
-                file.write("--------------------------------\n\n")
+                file.write("----------------------------------\n\n")
 
 # Example usage
 input_file = 'fullz.txt'  # Replace with the path to your input text file
